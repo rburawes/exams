@@ -1,0 +1,13 @@
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|jessica
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|jessica
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|time
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|jessica
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|dashboard
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|maven
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|jessica
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|alba
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|des
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|rae
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|alba
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|jessica
+rae|alba|hello|rae|time|where|president|des|macbook|apple|man|hello
