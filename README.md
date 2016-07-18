@@ -3,7 +3,7 @@ Exams
 
 Collection of classes, sqls and files that were used to answer employment and training questions.
 Note that, there are other similar answers around the web to the questions listed here and probably
-much better and efficient.
+way better and efficient.
 
 Java
 ====
@@ -57,10 +57,10 @@ public class Palindrome {
 }
 ```
 
+
 **Question 2:**
 
 Write an efficient algorithm to find K-complementary pairs in a given array of integers. Given Array A, pair (i, j) is K- complementary if K = A[i] + A[j];
-
 
 **Answer:**
 
@@ -139,6 +139,8 @@ public class Complimentary {
     }
 }
 ```
+
+
 **Question 3:**
 
 Given a large file that does not fit in memory (say 10GB), find the top 100000 most frequent phrases. The file has 50 phrases per line separated by a pipe (|). Assume that the phrases do not contain pipe.
@@ -233,6 +235,7 @@ public class Phrases {
 }
 ```
 
+
 MySQL
 =====
 
@@ -249,6 +252,7 @@ CREATE TABLE votes ( name CHAR(10), votes INT ); INSERT INTO votes VALUES ('Smit
 ```sql
 SELECT @voteRank := @voteRank + 1 as rank, name, votes FROM votes v, (SELECT @voteRank := 0 ) vr order by votes desc;
 ```
+
 
 **Question 2:**
 
@@ -310,6 +314,7 @@ DELIMITER ;
 
 SELECT CAP_FIRST_CHAR(name) FROM country;
 ```
+
 
 **Question 3:**
 
@@ -389,6 +394,7 @@ DELIMITER ;
 CALL splitted_table('|');
 ```
 
+
 **Question 4:**
 
 I have a table for bugs from a bug tracking software; let’s call the table “bugs”. The table has four columns (id, open_date, close_date, severity). 
@@ -462,6 +468,9 @@ DELIMITER ;
 CALL search_bugs(STR_TO_DATE('2015-11-10', '%Y-%m-%d'), STR_TO_DATE('2015-11-03', '%Y-%m-%d'));
 ```
 
-<b>Note:</b>
-Java location: /src/main/java
-SQL files: /src/main/resources/sql
+<b>Note(s):</b>
+* Pieces of codes are based from different tutorial sites.
+ 
+<b>File locations:</b>
+* Java location: /src/main/java
+* SQL files: /src/main/resources/sql
