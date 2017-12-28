@@ -1,10 +1,10 @@
 package com.exam;
 
-import java.util.Scanner;
-import java.util.stream.IntStream;
-
 import static java.lang.System.in;
 import static java.lang.System.out;
+
+import java.util.Scanner;
+import java.util.stream.IntStream;
 
 /**
  * Sample fibonacci implementation.
